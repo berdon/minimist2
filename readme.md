@@ -6,10 +6,22 @@ Minimist2 is a rewrite of the popular [Minimist](https://github.com/substack/min
 Minimist2 is written in TypeScript targetting ES6.
 
 # Installing
-TODO
+```bash
+npm install minimist2
+```
 
 # Development
-TODO
+1. Checkout the code
+    ```bash
+    git clone git@github.com:berdon/minimist2.git
+    npm install
+    ```
+2. Develop
+3. Run tests
+    ```bash
+    npm test
+    ```
+4. Submit a pull request
 
 # Using
 ```javascript
