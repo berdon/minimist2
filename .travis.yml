@@ -3,6 +3,9 @@ node_js:
   - "node"
   - "8"
   - "7"
+before_script:
+  # Force minification prior to running tests
+  - npm run build
 deploy:
   provider: npm
   email: "berdon@gmail.com"
