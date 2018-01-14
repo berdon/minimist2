@@ -1,6 +1,6 @@
 {
   "name": "minimist2",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.min.js",
   "scripts": {
@@ -24,5 +24,18 @@
     "tape": "^4.8.0",
     "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
   }
 }
