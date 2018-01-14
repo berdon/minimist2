@@ -26,7 +26,7 @@
     "typescript": "^2.6.2"
   },
   "testling": {
-    "files": "test/*.js",
+    "files": "minimist_tests/*.js",
     "browsers": [
       "ie/6..latest",
       "chrome/22..latest",
