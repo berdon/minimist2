@@ -10,6 +10,5 @@ deploy:
   provider: npm
   email: "berdon@gmail.com"
   api_key: $NPMJS_AUTH_TOKEN
-  tag: next
   on:
     branch: production
