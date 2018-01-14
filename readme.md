@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/berdon/minimist2.svg?branch=master)](https://travis-ci.org/berdon/minimist2)
-
 # Minimist2
+[![Build Status](https://travis-ci.org/berdon/minimist2.svg?branch=master)](https://travis-ci.org/berdon/minimist2) [![NPM Status](https://img.shields.io/npm/v/minimist2.svg)](https://www.npmjs.com/package/minimist2)
+
 Minimist2 is a rewrite of the popular [Minimist](https://github.com/substack/minimist) Javascript library for argument parsing. The library aims to be a drop-in replacement with matching API footprint. It passes all original Minimist unit tests.
 
 Minimist2 is written in TypeScript targetting ES6.
