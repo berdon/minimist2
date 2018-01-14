@@ -3,3 +3,7 @@ node_js:
   - "node"
   - "8"
   - "7"
+deploy:
+  tag: next
+  on:
+    branch: production
