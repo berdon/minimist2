@@ -1,0 +1,28 @@
+{
+  "name": "minimist2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./out/index.min.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts && tap minimist_tests/**/*.js",
+    "build": "./node_modules/babel-minify/bin/minify.js ./out/index.js --outFile ./out/index.min.js"
+  },
+  "author": {
+    "name": "Austin Hanson",
+    "email": "berdon@gmail.com",
+    "url": "http://www.austinhanson.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
+    "@types/node": "^9.3.0",
+    "babel-minify": "^0.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "tap": "^11.0.1",
+    "tape": "^4.8.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
