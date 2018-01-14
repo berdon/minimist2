@@ -25,7 +25,7 @@ npm install minimist2
 
 # Using
 ```javascript
-var argv = require('minimist')(process.argv.slice(2));
+var argv = require('minimist2')(process.argv.slice(2));
 console.dir(argv);
 ```
 
