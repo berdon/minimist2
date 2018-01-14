@@ -1,4 +1,4 @@
-var parse = require('../out/index.min.js');
+var parse = require('../');
 var test = require('tape');
 
 test('flag boolean default false', function (t) {

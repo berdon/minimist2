@@ -1,4 +1,4 @@
-var parse = require('../out');
+var parse = require('../');
 var test = require('tape');
 
 test('flag boolean true (default all --args to boolean)', function (t) {

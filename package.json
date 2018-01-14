@@ -2,10 +2,10 @@
   "name": "minimist2",
   "version": "1.0.0",
   "description": "",
-  "main": "./out/index.min.js",
+  "main": "./lib/index.min.js",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts && tap minimist_tests/**/*.js",
-    "build": "./node_modules/babel-minify/bin/minify.js ./out/index.js --outFile ./out/index.min.js"
+    "build": "tsc && ./node_modules/babel-minify/bin/minify.js ./out/index.js --outFile ./lib/index.min.js"
   },
   "author": {
     "name": "Austin Hanson",
