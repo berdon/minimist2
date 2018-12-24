@@ -4,6 +4,10 @@
   "description": "",
   "main": "./out/index.js",
   "types": "./out/index.d.ts",
+  "files": [
+    "lib",
+    "out"
+  ],
   "scripts": {
     "test": "npm run build && mocha -r ts-node/register src/**/*.spec.ts && tap minimist_tests/**/*.js",
     "build": "tsc && ./node_modules/babel-minify/bin/minify.js ./out/index.js --outFile ./lib/index.min.js"
